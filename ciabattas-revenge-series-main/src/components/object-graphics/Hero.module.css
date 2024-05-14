@@ -1,0 +1,10 @@
+.hero {
+    position: relative;
+    pointer-events: none;
+}
+
+.heroBody {
+    position: absolute;
+    left: -8px;
+    top: -19px;
+}

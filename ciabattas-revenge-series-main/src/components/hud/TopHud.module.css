@@ -1,0 +1,21 @@
+.topHud {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topHudLeft {
+    transform: scale( var(--pixel-size) );
+    transform-origin: top left;
+    display: flex;
+    gap: 2px;
+}
+
+.topHudRight {
+    display: flex;
+    gap: 2px;
+}
